@@ -56,6 +56,33 @@ fn_chain =  paste(dir_results, '/', build_id, '_matrix_chainfinder_del278_fdr5.t
 assignments = read.table(fn_assignment, sep='\t', stringsAsFactors=FALSE, 
                          header=TRUE)
 
+#https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4267152/
+FLAGS = c('TTN','MUC16','OBSCN','AHNAK2','SYNE1','FLG','MUC5B','DNAH17','PLEC',
+          'DST','SYNE2','NEB','HSPG2','LAMA5','AHNAK','HMCN1','USH2A','DNAH11','MACF1',
+          'MUC17','DNAH5','GPR98','FAT1','PKD1','MDN1','RNF213','RYR1','DNAH2','DNAH3',
+          'DNAH8','DNAH1','DNAH9','ABCA13','APOB','SRRM2','CUBN','SPTBN5','PKHD1','LRP2',
+          'FBN3','CDH23','DNAH10','FAT4','RYR3','PKHD1L1','FAT2','CSMD1','PCNT','COL6A3',
+          'FRAS1','FCGBP','DNAH7','RP1L1','PCLO','ZFHX3','COL7A1','LRP1B','FAT3','EPPK1',
+          'VPS13C','HRNR','MKI67','MYO15A','STAB1','ZAN','UBR4','VPS13B','LAMA1','XIRP2',
+          'BSN','KMT2C','ALMS1','CELSR1','TG','LAMA3','DYNC2H1','KMT2D','BRCA2','CMYA5',
+          'SACS','STAB2','AKAP13','UTRN','VWF','VPS13D','ANK3','FREM2','PKD1L1','LAMA2',
+          'ABCA7','LRP1','ASPM','MYOM2','PDE4DIP','TACC2','MUC2','TEP1','HELZ2','HERC2',
+          'ABCA4')
+
+# manually added FLAGS
+FLAGS.add = c("PCDHA1","PCDHA2","PCDHA3","PCDHA4","PCDHA5","PCDHA6","PCDHGA1",
+              "PCDHGA2","PCDHGA3","PCDHGA4","PCDHGA5","PCDHGB1","PCDHGB2",
+              "PCDHA10","PCDHA7","PCDHA8","PCDHA9","PCDHGA6","PCDHGA7","PCDHGA8",
+              "PCDHGB3","PCDHGB4","PCDHGB5","PCDHGA9","PCDHGB6",
+              "FLG2", "TCHH", "IVL", "RPTN", "DSPP",
+              "MUC7","MUC17", "MUC19", "MUC21", "MUC22", "MUC4", "MUC5AC",
+              "ZFHX4","ZNF283","ZNF428","ZNF430","ZNF512","ZNF519","ZNF544","ZNF57","ZNF676",
+              "ZNF678","ZNF681","ZNF700","ZNF709","ZNF717","ZNF813","ZNF90","ZNF92","ZNF93","ZNF99",
+              "ZNF208","ZNF257","ZNF43","ZNF845","ZNF850","ZNF91")
+FLAGS.remove = c( "KMT2C", "KTM2D", "BRCA2")
+FLAGS = sort( setdiff( c(FLAGS, FLAGS.add), FLAGS.remove ) )
+
+
 assess_tandem_dup = function( chrom, locus, list_sv, chrom_lengths, samples_ids ){
     # return vector of which samples have a TD intersecting a given locus
     has_TD_locus = rep(FALSE, N_SAMPLES)
@@ -366,7 +393,6 @@ plot_circos = function( cyto_info, cna, sv, gene_info=NULL, fn_out="", main="",
     rcircos.params$text.size = .75;
     RCircos.Reset.Plot.Parameters(rcircos.params);
     
-    
     plot.window(c(-1.3,1.3), c(-1.3, 1.3))
     if( fn_out != "" ){
         pdf(file=fn_out, height=10, width=10)
@@ -382,8 +408,6 @@ plot_circos = function( cyto_info, cna, sv, gene_info=NULL, fn_out="", main="",
             gene_info = gene_info[m1$idx.B,]
         }
         RCircos.Gene.Name.Plot(gene_info, "symbol", track_sv, "in");
-        #RCircos.Gene.Connector.Plot(gene_info, 1, "in");
-        #cur_track = cur_track+1
     }
     if( !is.null( cna ) ){
         RCircos.Line.Plot(cna_show, data.col=5, track.num=track_cna, side="in")
@@ -800,11 +824,8 @@ color_scale = function( V, color_map, color_bounds=NA, color_NA=NA ){
 # Genome data
 ################################################################################
 cyto_info = read.table(fn_cyto, stringsAsFactors=FALSE,header=TRUE, sep='\t')
-
 chrom_lengths = read.table(fn_chrom_lengths, row.names=1, stringsAsFactors=FALSE)
-
 centromeres = read.table( fn_centromeres, header=TRUE, stringsAsFactors = FALSE)
-
 gene_locs = read.table( fn_gene_locs, stringsAsFactors = FALSE)
 names(gene_locs) = c("chrom", "start", "end", "symbol", "score", "strand")
 gene_locs$symbol = get.split.col(gene_locs$symbol, "~", first=TRUE)
@@ -839,7 +860,6 @@ matrix_samples = read.table(fn_sample_summary, header=TRUE, sep='\t',
 sample_ids = rownames(matrix_samples)  
 n_samples = length(sample_ids)
 sa = load.matrix( fn_sa )
-
 
 
 ################################################################################
@@ -913,7 +933,7 @@ matrix_germline[ m_symbol$idx.A, m_sample$idx.B] = germ[m_symbol$idx.B, m_sample
 ######################################################################
 # Calculate chromothripsis
 ######################################################################
-# takes ~5 minutes
+
 chrom_maxima = matrix(0, N_SAMPLES,24)
 for(i in 1:length(sample_ids)){
     sc = read.table( paste(dir_scores_chromothripsis,'/',sample_ids[i],
@@ -957,10 +977,6 @@ names(list_chromo) = c("sample_id", "chrom")
 list_chromo$chrom[list_chromo$chrom=="chr23"] = "chrX"
 has_chromothripsis = rep(FALSE, N_SAMPLES)
 has_chromothripsis[match.idx( sample_ids, list_chromo$sample_id)$idx.A] = TRUE
-
-#tp53=allele_effect("TP53")$alleles$bi
-#fisher.test( table(tp53, has_chromothripsis) )
-
 
 ###############################################
 # Somatic mutation data
@@ -1064,7 +1080,7 @@ m=match.idx( dimnames(nmf)[[1]],
 nmf = nmf[m$idx.A,]
 
 ################################################################################
-# Structural variants from manta (list_sv_m) and lumpy (list_sv_l)
+# Structural variants from manta (list_sv_m) 
 ################################################################################
 list_sv_m = read.table(fn_manta_sv,
                   header=TRUE, sep='\t', 
@@ -1100,8 +1116,9 @@ for(i in 1:length(idx_BND)){
 }
 list_sv_m = list_sv_m[keep,]
 
-#write.table( list_sv_m, '/notebook/human_sequence_prostate_WCDT/WCDT/results/2018_04_27_list_sv_m.txt',
-#              quote=FALSE, sep='\t')
+write.table( list_sv_m, 
+             '/notebook/human_sequence_prostate_WCDT/WCDT/results/build_2018_04_15/2018_04_27_list_sv_m.txt',
+              quote=FALSE, sep='\t')
 
 ##############################################
 # Summarize counts of SV events

@@ -111,18 +111,11 @@ if (length(opt$args) < 4) {
     quit("no", 1)
 }
 
-#fn_refflat = '/notebook/human_sequence_prostate_WCDT/WCDT/metadata/GRCh38Decoy_refseq_genelocs_from_refFlat.bed'
-#fn_metrics = paste(dir_results, '2018_01_02_matrix_rna_metrics.txt', sep='/')
-#fn_counts = paste(dir_results, '2018_01_02_matrix_rna_counts.txt', sep='/')
-#fn_tpm = paste( dir_results, '2018_01_02_matrix_rna_tpm.txt', sep='/')
-
-#fn_refflat = opt$args[1]
 fn_genelength = opt$args[1]
 fn_metrics = opt$args[2]
 fn_counts = opt$args[3]
 fn_tpm = opt$args[4]
 
-#print(paste("Reading refflat",fn_refflat))
 print(paste("Reading gene length",fn_genelength))
 print(paste("Reading metrics",fn_metrics))
 print(paste("Reading counts",fn_counts))
@@ -136,23 +129,9 @@ RNAcounts = read.table(fn_counts,
                      header=TRUE, sep='\t', 
                      stringsAsFactors=FALSE, check.names = FALSE)
 
-# determine median gene length
+# read in median gene length
 symbols = sort(unique(RNAcounts$symbol))
 feature_length = rep(0, length(symbols))
-#refflat = read.table(fn_refflat, header=FALSE, sep='\t', stringsAsFactors=FALSE, 
-#                     check.names = FALSE)
-#names(refflat) = c("chrom", "start", "end", "name", "score", "strand")
-#refflat = cbind(refflat, 
-#                symbol=get.split.col( refflat$name, "~", first=TRUE),
-#                length=refflat$end - refflat$start, 
-#                stringsAsFactors=FALSE)
-#gene_length = read.table( fn_genelength
-#for(i in 1:length(symbols)){
-#    idx = which( refflat$symbol==symbols[i] )
-#    if( length( idx ) > 0 ){
-#        feature_length[i] = median( refflat$length[ idx ] )     
-#    }
-#}
 gene_length = read.table(fn_gene_length,
                      header=FALSE, sep='\t', 
                      stringsAsFactors=FALSE, check.names = FALSE)
@@ -176,7 +155,6 @@ dimnames(counts)[[2]] = samples
 mu.counts = rowMeans(counts)
 max.counts = rowMaxs(counts)
 keep = max.counts>100 | mu.counts > 100
-#keep = rep(TRUE, dim(counts)[1])
 tpm = counts_to_tpm(counts[keep,], feature_length[keep], insert_length) 
 
 tpm_df = data.frame(round(tpm,3))
