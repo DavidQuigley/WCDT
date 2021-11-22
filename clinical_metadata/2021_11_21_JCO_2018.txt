@@ -1,0 +1,120 @@
+sample_id	id_aggarwal	cluster_ID	OS_duration	OS_event_(dead)	prior_Abi	prior_Enza	Age_at_study_entry	Gleason_grade_at_diagnosis_	serum_PSA_at_biopsy	serum_NSE_at_biopsy	serum_CGA	serum_ALP	serum_Hemoglobin	serum_LDH
+DTB-001-BL	DTB-001	c1	1812	Death	Naïve	Resistant	NA	3+3	226.00	NA	NA	NA	NA	NA
+DTB-002-BL	DTB-002	c5	888	Death	Resistant	Naïve	NA	4+5	252.00	NA	NA	NA	NA	NA
+DTB-003-BL	DTB-003	c2	1499	Death	Naïve	Naïve	71	4+4	3.40	40.6	35.0	56	14.7	186
+DTB-004-BL	DTB-004	c1	2184	Last Contact	Resistant	Naïve	71	3+4	1657.00	7.0	4.2	122	11.9	287
+DTB-005-BL	DTB-005	c1	1082	Death	Naïve	Naïve	60	4+5	13.60	< 5	3.8	102	13.7	204
+DTB-007-BL	DTB-007	c4	501	Death	Resistant	Naïve	61	3+3	86.60	< 5	27.0	70	12.6	191
+DTB-008-BL	DTB-008	c4	1287	Death	Naïve	Naïve	75	4+5	251.00	6.1	21.0	252	10.6	150
+DTB-009-BL	DTB-009	c3	455	Death	Resistant	Naïve	63	4+4	744.00	9.3	6.0	926	10.6	376
+DTB-010-PRO	DTB-010Pro	c5	1170	Death	Resistant	Naïve	61	4+3	3713.00	8.5	5.8	466	12.1	977
+DTB-011-BL	DTB-011	c3	1736	Last Contact	Naïve	Naïve	68	3+4	28.74	6.0	4.0	67	11.9	198
+DTB-018-BL	DTB-018	c3	2508	Death	Naïve	Naïve	55	5+4	69.40	57.2	< 1	76	10.8	156
+DTB-018-PRO	DTB-018Pro	c3	2508	Death	Resistant	Naïve	55	5+4	9.80	NA	NA	42	NA	127
+DTB-020-BL	DTB-020	c3	572	Death	Resistant	Resistant	70	4+4	394.00	78.6	22.0	108	8.0	856
+DTB-021-BL	DTB-021	c4	1343	Last Contact	Naïve	Naïve	57	4+3	54.24	10.6	8.0	76	13.8	204
+DTB-022-BL	DTB-022	c1	1281	Death	Naïve	Naïve	69	4+4	7.28	67.7	30.0	86	12.4	184
+DTB-022-PRO	DTB-022Pro	c1	1281	Death	Resistant	Naïve	69	4+4	7.70	17.8	7.2	NA	NA	NA
+DTB-022-PRO2	DTB-022Pro2	c1	1281	Death	Resistant	Resistant	69	4+4	11.21	NA	NA	NA	NA	NA
+DTB-023-BL	DTB-023	c3	2093	Last Contact	Exposed	Exposed	54	4+4	7.25	< 5	2.0	60	12.2	NA
+DTB-024-PRO	DTB-024Pro	c4	667	Death	Resistant	Naïve	77	4+5	305.79	15.7	22.0	NA	NA	NA
+DTB-024-PRO2	DTB-024Pro2	c4	667	Death	Resistant	Resistant	77	4+5	377.93	36.9	51.0	NA	NA	NA
+DTB-030-BL	DTB-030	c5	3473	Last Contact	Resistant	Naïve	75	3+4	0.44	< 5	29.0	48	16.1	164
+DTB-031-BL	DTB-031	c5	450	Death	Naïve	Naïve	49	4+5	7.49	22.4	3.6	624	9.9	NA
+DTB-032-BL	DTB-032	c2	1403	Death	Naïve	Resistant	77	4+3	120.09	16.5	6.0	310	12.1	271
+DTB-034-BL	DTB-034	c1	2721	Death	Resistant	Naïve	69	3+4	154.30	NA	NA	77	12.8	170
+DTB-035-BL	DTB-035	c5	910	Death	Resistant	Naïve	88	3+3	35.30	7.9	198.0	101	10.7	188
+DTB-036-BL	DTB-036	c2	267	Death	Resistant	Naïve	74	Missing	37.20	24.1	7.8	104	12.5	197
+DTB-038-BL	DTB-038	c1	7571	Death	Naïve	Naïve	77	4+4	186.15	6.8	1.6	98	13.0	164
+DTB-040-BL	DTB-040	c2	213	Death	Naïve	Naïve	57	4+5	0.38	>90	17.0	188	14.4	803
+DTB-042-BL	DTB-042	c1	1244	Death	Resistant	Naïve	64	4+4	110.69	< 5	7.2	153	10.4	195
+DTB-046-BL	DTB-046	c1	1698	Death	Resistant	Naïve	66	4+4	13.29	< 5	1.2	64	13.1	200
+DTB-049-BL	DTB-049	c4	813	Death	Resistant	Naïve	69	3+3	41.13	NA	NA	174	13.0	409
+DTB-053-BL	DTB-053	c1	402	Death	Resistant	Naïve	75	4+4	88.50	< 5	5.4	176	9.4	336
+DTB-055-PRO2	DTB-055Pro2	c5	1081	Death	Resistant	Resistant	75	4+3	Missing	NA	NA	NA	NA	NA
+DTB-059-BL	DTB-059	c1	2614	Death	Resistant	Naïve	64	4+3	1500.00	16.6	60.0	323	9.1	546
+DTB-060-BL	DTB-060	c5	1833	Death	Naïve	Naïve	82	Missing	102.45	8.4	23.0	64	11.1	NA
+DTB-060-PRO	DTB-060Pro	c5	1833	Death	Naïve	Resistant	82	Missing	460.07	8.1	20.0	NA	NA	NA
+DTB-061-BL	DTB-061	c1	285	Death	Resistant	Resistant	68	4+3	37.00	28.6	28.0	140	8.4	643
+DTB-063-BL	DTB-063	c3	2027	Last Contact	Naïve	Naïve	65	4+5	20.90	< 5	< 1	68	14.6	183
+DTB-063-PRO	DTB-063Pro	c3	2027	Last Contact	Naïve	Resistant	65	4+5	11.60	8.9	8.0	81	NA	145
+DTB-064-BL	DTB-064	c1	4426	Last Contact	Resistant	Naïve	62	4+4	19.32	< 5	1.2	91	12.2	NA
+DTB-065-BL	DTB-065	c5	1657	Death	Resistant	Resistant	69	Missing	1600.00	37.9	31.0	298	7.8	199
+DTB-067-PRO	DTB-067Pro	c5	2209	Death	Resistant	Naïve	73	5+5	3.40	38.1	24.0	653	11.3	266
+DTB-069-BL	DTB-069	c5	1113	Death	Naïve	Resistant	73	4+3	375.00	10.6	70.0	65	13.0	291
+DTB-071-BL	DTB-071	c1	267	Death	Naïve	Naïve	66	4+5	163.00	10.4	68.0	83	9.8	132
+DTB-073-BL	DTB-073	c4	860	Death	Resistant	Naïve	67	5+5	40.90	7.3	1.6	177	12.3	227
+DTB-073-PRO	DTB-073Pro	c4	860	Death	Resistant	Resistant	67	5+5	88.57	NA	NA	NA	NA	Unk
+DTB-074-BL	DTB-074	c4	#VALUE!	Last contact	Exposed	Naïve	76	4+4	66.74	NA	NA	78	12.6	207
+DTB-077-PRO	DTB-077Pro	c1	1028	Last Contact	Naïve	Resistant	70	4+3	7.69	8.0	17.0	93	NA	NA
+DTB-080-BL	DTB-080	c4	600	Death	Naïve	Naïve	59	5+4	14.92	7.2	8.0	56	11.3	116
+DTB-080-PRO	DTB-080Pro	c2	600	Death	Naïve	Resistant	59	5+4	11.94	< 5	4.6	NA	NA	NA
+DTB-083-BL	DTB-083	c4	1741	Death	Resistant	Resistant	75	3+4	110.00	20.5	6.6	128	10.7	167
+DTB-085-BL	DTB-085	c5	1267	Death	Resistant	Resistant	74	3+3	179.00	8.3	15.2	228	11.6	425
+DTB-089-BL	DTB-089	c5	1047	Death	Resistant	Naïve	79	4+5	14.27	< 5	1.4	65	13.8	127
+DTB-089-PRO	DTB-089Pro	c5	1047	Death	Resistant	Resistant	79	4+5	43.80	< 5	1.2	NA	NA	Unk
+DTB-090-BL	DTB-090	c1	1874	Last Contact	Naïve	Exposed	45	5+5	30.40	7.1	10.0	78	11.8	195
+DTB-090-PRO	DTB-090Pro	c1	1874	Last Contact	Naïve	Exposed	45	5+5	367.00	5.2	< 1	55	NA	166
+DTB-091-BL	DTB-091	c1	254	Death	Naïve	Naïve	79	4+5	1188.19	7.1	4.2	95	12.9	182
+DTB-092-BL	DTB-092	c1	954	Death	Resistant	Naïve	67	5+4	17.56	< 5	3.0	69	12.6	214
+DTB-095-BL	DTB-095-1	c4	1966	Death	Resistant	Resistant	67	4+3	131.46	9.1	5.0	56	11.9	200
+DTB-095-BL2	DTB-095-2	c4	1966	Death	Resistant	Resistant	67	4+3	131.46	9.1	5.0	56	11.9	200
+DTB-097-BL	DTB-097	c3	343	Death	Resistant	Resistant	73	3+3	25.68	19.7	28.0	164	11.7	381
+DTB-097-PRO	DTB-097Pro	c3	343	Death	Resistant	Resistant	73	3+3	6.32	123.7	3.8	NA	NA	NA
+DTB-098-BL	DTB-098	c4	917	Last Contact	Naïve	Naïve	58	4+4	148.39	< 5	2.8	59	13.1	179
+DTB-098-PRO	DTB-098Pro2	c5	917	Last Contact	Naïve	Resistant	58	4+4	51.57	87	NA	NA	51.57	NA
+DTB-100-BL	DTB-100	c5	2871	Death	Resistant	Resistant	68	5+3	464.00	5.5	31.0	65	10.3	145
+DTB-102-BL	DTB-102	c5	1820	Death	Resistant	Naïve	85	4+5	1210.48	10.3	4.2	64	11.8	266
+DTB-102-PRO	DTB-102Pro	c4	1820	Death	Resistant	Resistant	85	4+5	461.36	24.0	25.0	NA	NA	NA
+DTB-104-BL	DTB-104	c3	2032	Death	Resistant	Resistant	82	3+3	20.00	10.4	6.4	62	10.9	195
+DTB-108-BL	DTB-108	c1	1041	Death	Resistant	Resistant	63	3+3	4.00	7.5	3.2	146	13.1	197
+DTB-109-BL	DTB-109	c4	1750	Last contact	Resistant	Naïve	61	4+5	2.21	< 5	4.2	51	12.3	161
+DTB-110-BL	DTB-110	c2	537	Death	Resistant	Naïve	66	4+4	2.70	8.9	26.0	78	9.6	189
+DTB-111-BL	DTB-111	c4	1316	Last Contact	Resistant	Naïve	69	4+3	35.02	10.5	3.0	56	13.4	180
+DTB-111-PRO	DTB-111Pro	c5	1316	Last contact	Resistant	Resistant	69	4+3	109.93	8.7	10.0	74	NA	NA
+DTB-112-BL	DTB-112	c3	3045	Last contact 	Resistant	Naïve	76	4+4	184.00	< 5	3.4	94	12.4	453
+DTB-115-PRO	DTB-115Pro	c5	514	Death	Naïve	Resistant	61	5+5	4478.56	9.9	15.0	741	NA	NA
+DTB-116-BL	DTB-116	c1	NA	Death	Resistant	Resistant	68	Missing	217.2	NA	NA	198	10.8	316
+DTB-118-BL	DTB-118	c5	1310	Death	Resistant	Resistant	73	5+4	554.1	< 5	1	45	12	192
+DTB-120-BL	DTB-120	c2	66	Death	Naïve	Naïve	64	4+5	0.6	33.7	3.4	76	11.7	329
+DTB-121-BL	DTB-121	c5	733	Death	Naïve	Resistant	90	Missing	11.2	< 5	1.2	93	15.1	142
+DTB-124-BL	DTB-124	c5	512	Death	Naïve	Resistant	74	3+4	26.8	< 5	2.6	317	13.2	389
+DTB-126-BL	DTB-126	c4	387	Death	Resistant	Resistant	90	4+3	113	11.5	9	64	11.8	198
+DTB-127-BL	DTB-127	c5	908	Death	Resistant	Naïve	72	4+4	228	17	4.4	89	12.2	165
+DTB-127-PRO	DTB-127Pro	c5	908	Death	Resistant	Resistant	72	4+4	521	NA	NA	NA	NA	NA
+DTB-128-BL	DTB-128	c5	950	Last contact	Naïve	Naïve	78	5+4	286.1	75.2	16	264	14	175
+DTB-129-BL	DTB-129	c3	718	Death	Naïve	Naïve	66	3+3	8.21	22.4	3	129	13.4	176
+DTB-131-BL	DTB-131	c3	NA	Last contact	Resistant	Naïve	63	Missing	305.8	16.7	1	146	14	250
+DTB-132-BL	DTB-132	c5	920	Last contact	Naïve	Naïve	83	Missing	371.76	5.2	1	66	13.8	150
+DTB-135-BL	DTB-135	c5	236	Death	Naïve	Naïve	57	Missing	9.19	7.6	7.8	107	11.6	582
+DTB-135-PRO	DTB-135Pro	c2	236	Death	Naïve	Resistant	57	Missing	31.81	7.5	4.4	NA	NA	NA
+DTB-137-BL	DTB-137	c4	754	Last Contact	Naïve	Naïve	61	4+5	539.62	7.0	43.0	226	11.4	236
+DTB-137-PRO	DTB-137Pro	c4	754	Last Contact	Naïve	Resistant	61	4+5	860.89	45.3	58.0	136	NA	NA
+DTB-138-BL	DTB-138	c5	498	Death	Naïve	Resistant	78	3+3	102	< 5	126.0	78	12.5	297
+DTB-140-BL	DTB-140	c4	NA	Death	Resistant	Naïve	75	3+4	388.62	< 5	19.0	885	13.3	255
+DTB-141-BL	DTB-141	c3	860	Death	Naïve	Naïve	71	3+5	140.07	5.1	4.6	390	13.3	214
+DTB-141-PRO	DTB-141Pro	c3	860	Death	Naïve	Resistant	71	3+5	97.38	32.0	23.0	494	NA	NA
+DTB-143-BL	DTB-143	c3	725	Last contact	Naïve	Naïve	64	4+5	94.42	5.3	1.0	75	13.6	188
+DTB-146-BL	DTB-146	c1	1342	Death	Resistant	Naïve	60	4+4	34.79	5.0	2.2	54	14.5	207
+DTB-149-BL	DTB-149	c3	498	Death	Naïve	Naïve	70	5+4	16.45	< 5	4.4	195	13.2	233
+DTB-149-PRO	DTB-149Pro	c3	498	Death	Naïve	Resistant	70	5+4	115.1	NA	NA	137	NA	NA
+DTB-151-BL	DTB-151	c4	700	Death	Naïve	Naïve	72	4+5	16.55	< 5	2.0	96	13.7	162
+DTB-154-BL	DTB-154	c5	1355	Last contact	Resistant	Naïve	78	4+4	32.8	5.4	1.6	130	13.6	133
+DTB-156-BL	DTB-156	c1	493	Death	Resistant	Naïve	71	3+4	929.9	13.8	3.8	1506	12.8	507
+DTB-159-BL	DTB-159	c3	1645	Last contact	Naïve	Naïve	79	4+5	3.36	< 5	4.6	78	14.5	280
+DTB-170-BL	DTB-170	c3	217	Last contact	Resistant	Naïve	78	2+2	91.4	8.7	27	62	14.7	140
+DTB-174-BL	DTB-174	c2	1116	Death	Resistant	Resistant	59	4+5	128.5	41.1	5	609	10.8	525
+DTB-175-BL	DTB-175	c1	941	Death	Resistant	Resistant	69	4+3	65.581	36.7	38	105	8.2	366
+DTB-176-BL	DTB-176	c3	672	Last contact	Naïve	Naïve	71	5+4	3.57	9.8	< 1	63	13.6	182
+DTB-176-PRO	DTB-176Pro	c3	672	Last contact	Naïve	Resistant	71	5+4	5.1	8.3	< 1	74	NA	NA
+DTB-181-BL	DTB-181	c5	989	Death	Resistant	Resistant	64	4+3	46.23	13.3	14	330	13.2	NA
+DTB-183-BL	DTB-183	c5	735	Last contact	Naïve	Naïve	56	Missing	908.21	15.7	8	57	13	NA
+DTB-187-BL	DTB-187	c3	742	Last contact	Naïve	Naïve	75	4+4	19.5	NA	NA	104	13.6	185
+DTB-190-BL	DTB-190	c5	1773	Last contact	Resistant	Naïve	69	3+4	1.84	11.6	9	68	13.8	178
+DTB-194-BL	DTB-194	c4	1406	Death	Naïve	Naïve	71	5+4	103.55	NA	NA	138	14.1	190
+DTB-194-PRO	DTB-194Pro	c4	1406	Death	Naïve	Resistant	71	5+4	260.51	NA	NA	138	NA	NA
+DTB-205-BL	DTB-205	c2	1400	Last contact	Naïve	Naïve	68	4+5	1.48	NA	NA	51	12.9	185
+DTB-206-BL	DTB-206	c3	519	Last contact	Naïve	Naïve	72	4+3	24.8	NA	NA	59	14.6	158
+DTB-210-BL	DTB-210	c5	1398	Death	Naïve	Naïve	88	4+3	70.45	NA	NA	736	13.5	31
+DTB-210-PRO	DTB-210Pro	c2	1398	Death	Naïve	Resistant	88	4+3	76.44	NA	NA	NA	NA	NA
+DTB-218-BL	DTB-218	c2	534	Death	Naïve	Resistant	75	4+5	2.9	33.9	11	91	12.6	1284
