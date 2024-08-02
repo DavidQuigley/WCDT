@@ -1,0 +1,211 @@
+SAMPLE_ID	biopsy_site
+DTB-001-BL	Bone
+DTB-002-BL	Liver
+DTB-003-BL	Liver
+DTB-004-BL	Liver
+DTB-005-BL	Bone
+DTB-007-BL	Liver
+DTB-008-BL	Bone
+DTB-009-BL	Bone
+DTB-010-BL	Bone
+DTB-010-PRO	Liver
+DTB-011-BL	Lymph node
+DTB-014-BL	Bone
+DTB-018-BL	Lymph node
+DTB-018-PRO	Lymph Node
+DTB-019-BL	Bone
+DTB-019-PRO	Bone
+DTB-020-BL	Liver
+DTB-021-BL	Bone
+DTB-021-PRO	Bone
+DTB-022-BL	Bone
+DTB-022-PRO	Bone
+DTB-022-PRO2	Bone
+DTB-023-BL	Lymph node
+DTB-024-PRO	Liver
+DTB-024-PRO2	Liver
+DTB-030-BL	Lung
+DTB-031-BL	Bone
+DTB-032-BL	Lymph node
+DTB-034-BL	Lymph node
+DTB-035-BL	Lymph node
+DTB-036-BL	Lymph node
+DTB-037-BL	Bone
+DTB-038-BL	Bone
+DTB-040-BL	Liver
+DTB-042-BL	Bone
+DTB-044-BL	Liver
+DTB-046-BL	Bone
+DTB-049-BL	Liver
+DTB-053-BL	Bone
+DTB-053-RP	Prostate
+DTB-055-PRO	NA
+DTB-055-PRO2	Brain
+DTB-057-BL	Bone
+DTB-059-BL	Liver
+DTB-060-BL	Adrenal
+DTB-060-PRO	Adrenal
+DTB-061-BL	Liver
+DTB-063-BL	Lymph node
+DTB-063-PRO	Lymph node
+DTB-064-BL	Bone
+DTB-065-BL	Lymph node
+DTB-067-PRO	Liver
+DTB-069-BL	Lymph node
+DTB-071-BL	Lymph node
+DTB-073-BL	Bone
+DTB-073-PRO	Bone
+DTB-074-BL	Bone
+DTB-077-PRO	Bone
+DTB-080-BL	Lymph node
+DTB-080-PRO	Lymph node
+DTB-082-BL	Lymph node
+DTB-083-BL	Lymph node
+DTB-085-BL	Lymph node
+DTB-088-BL	Bone
+DTB-089-BL	Bone
+DTB-090-BL	Lymph node
+DTB-090-PRO	Lymph node
+DTB-091-BL	Bone
+DTB-092-BL	Bone
+DTB-094-BL	Lymph node
+DTB-095-2-BL	Bone
+DTB-095-BL	Adrenal
+DTB-096-BL	Bone
+DTB-097-BL	Bone
+DTB-097-PRO	Liver
+DTB-098-BL	Lymph node
+DTB-098-PRO2	Lymph node
+DTB-100-BL	Lymph node
+DTB-101-BL	Soft tissue
+DTB-102-PRO	Lymph node
+DTB-104-BL	Lymph node
+DTB-108-BL	Bone
+DTB-109-BL	Bone
+DTB-111-BL	Lymph node
+DTB-111-PRO	Lymph node
+DTB-112-BL	Lymph node
+DTB-114-BL	Bone
+DTB-115-PRO	Bone
+DTB-116-BL	Liver
+DTB-119-PRO	Bone
+DTB-120-BL	Lung
+DTB-121-BL	Liver
+DTB-124-BL	Bone
+DTB-125-BL	Bone
+DTB-126-BL	Bone
+DTB-127-BL	Lymph Node
+DTB-127-PRO	Lymph Node
+DTB-128-BL	Bone
+DTB-128-PRO	Bone
+DTB-129-BL	Lymph Node
+DTB-130-BL	Liver
+DTB-130-PRO	Soft tissue
+DTB-131-BL	Lymph Node
+DTB-132-BL	Lymph Node
+DTB-135-BL	Soft tissue
+DTB-135-PRO	Lymph Node
+DTB-137-BL	Bone
+DTB-137-PRO	Bone
+DTB-138-BL	umbilical mass
+DTB-140-BL	Bone
+DTB-141-BL	Bone
+DTB-143-BL	Bone
+DTB-143-PRO	Lymph Node
+DTB-146-BL	Bone
+DTB-148-BL	Bone
+DTB-149-BL	Bone
+DTB-151-BL	Lymph Node
+DTB-156-BL	Bone
+DTB-159-BL	Bone
+DTB-159-PRO	Bone
+DTB-165-PRO	Bone
+DTB-167-BL	Lymph Node
+DTB-167-PRO	Bone
+DTB-170-BL	Lymph Node
+DTB-172-BL	Lymph Node
+DTB-173-BL	Lymph Node
+DTB-175-BL	Liver
+DTB-176-BL	Perianal
+DTB-176-PRO3	Lymph Node
+DTB-183-BL	Lymph Node
+DTB-184-BL	Bone
+DTB-186-BL	Lymph Node
+DTB-187-BL	Bone
+DTB-188-BL	Bone
+DTB-189-BL	Lymph Node
+DTB-190-BL	Lymph Node
+DTB-191-BL	Bone
+DTB-194-PRO	Bone
+DTB-195-BL	Bone
+DTB-201-PRO	Lymph Node
+DTB-202-BL	Liver
+DTB-204-BL	Bone
+DTB-205-BL	Lymph Node
+DTB-206-BL	Lymph Node
+DTB-206-PRO	Lymph Node
+DTB-210-BL	Bone
+DTB-210-PRO	Bone
+DTB-211-BL	Liver
+DTB-213-BL	Lymph Node
+DTB-214-BL	Bone
+DTB-216-PRO	Bone
+DTB-218-BL	pelvic mass
+DTB-220-BL	other
+DTB-222-BL	Lymph Node
+DTB-223-BL	Lymph Node
+DTB-226-BL	Lymph Node
+DTB-231-BL	Liver
+DTB-232-BL	Bone
+DTB-232-PRO	Bone
+DTB-233-BL	Lymph Node
+DTB-234-BL	Lymph Node
+DTB-235-BL	other
+DTB-240-BL	Lymph Node
+DTB-241-BL	Liver
+DTB-242-BL	Liver
+DTB-244-BL	Bone
+DTB-251-BL	Bone
+DTB-252-BL	Lymph Node
+DTB-254-BL	Adrenal
+DTB-254-PRO	Adrenal
+DTB-255-BL	Bone
+DTB-258-BL	Bone
+DTB-258-PRO	Bone
+DTB-259-BL	Bone
+DTB-260-BL	Bone
+DTB-261-BL	Bone
+DTB-261-PRO	Bone
+DTB-265-BL	Lymph Node
+DTB-265-PRO	Lymph Node
+DTB-266-BL	Bone
+DTB-269-BL	Lymph Node
+PR-002-BL	Bone
+PR-006-BL	Bone
+PR-008-BL	Liver
+PR-009-D	Liver
+PR-022-BL	Liver
+PR-024-PRO	Liver
+PR-028-A	Adrenal Gland
+PR-030-BL	Soft Tissue
+PR-036-BL	Bone
+PR-038-A	Bone
+PR-040-BL	Liver
+PR-051-BL	Bone
+PR-052-BL	Bone
+PR-054-BL	Bone
+PR-056-BL	Liver
+PR-058-BL	Bone
+PR-063-A	Bone
+PR-067-BL	Bone
+PR-070-BL	Lymph Node
+PR-078-BL	Bone
+PR-078-PRO	Bone
+PR-080-BL	Bone
+PR-081-BL	Lymph Node
+PR-087-BL	Bone
+PR-089-BL	Lymph Node
+PR-095-BL	Liver
+PR-100-BL	Bone
+PR-120-BL	Liver
+PR-131-BL	Bone
